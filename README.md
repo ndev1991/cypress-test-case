@@ -21,3 +21,12 @@ How to attempt this challenge:
 3) Create a new repo in your GitHub account and note the git url
 4) Set your new repo as the origin for your local solution: `git remote set-url origin ${your repo url}`
 5) Push the solution to your repo
+
+
+## Update
+
+Added two delays for the api call delay
+First one on load, there is timeout between 0 to 1 second
+
+And the saving feature also has time between 3.5 to 4.5
+Simply I added two delays before run the test cases.
